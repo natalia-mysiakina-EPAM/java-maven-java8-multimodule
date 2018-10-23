@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Roman_Martseniuk
  */
 @RestController
-public class DemoResourceImpl implements DemoResource {
+public class HelloEdpResourceImpl implements HelloEdpResource {
 
     @Override
     public String hello() {
