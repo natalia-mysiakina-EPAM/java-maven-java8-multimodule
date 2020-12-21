@@ -7,10 +7,6 @@
 	<artifactId>java-maven-springboot-multimodule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
-	<properties>        
-        <parent.version>0.0.1-SNAPSHOT</parent.version>
-    </properties>
 	
 	<modules>
         <module>java-maven-springboot-multimodule-api</module>
@@ -31,6 +27,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<deployable.module>java-maven-springboot-multimodule-impl</deployable.module>
+		<parent.version>0.0.1-SNAPSHOT</parent.version>
 	</properties>
 
 	<dependencies>
