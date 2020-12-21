@@ -7,7 +7,7 @@
     <parent>
         <artifactId>java-maven-springboot-multimodule</artifactId>
         <groupId>com.epam.edp</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${parent.version}</version>
     </parent>
 
     <artifactId>java-maven-springboot-multimodule-api</artifactId>

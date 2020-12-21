@@ -5,9 +5,13 @@
 
 	<groupId>com.epam.edp</groupId>
 	<artifactId>java-maven-springboot-multimodule</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>e1e1e1</version>
 	<packaging>pom</packaging>
 
+	<properties>        
+        <parent.version>а1а1а1</parent.version>
+    </properties>
+	
 	<modules>
         <module>java-maven-springboot-multimodule-api</module>
         <module>java-maven-springboot-multimodule-impl</module>
